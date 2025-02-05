@@ -1,0 +1,11 @@
+[submodule "4_CSS_REACT/challengecss"]
+	path = 4_CSS_REACT/challengecss
+	url = https://github.com/thyagoerick/challengecss.git
+
+[submodule "6_SECRET_WORD/secretword"]
+	path = 6_SECRET_WORD/secretword
+	url = https://github.com/thyagoerick/secretword.git
+
+[submodule "7_REQ_HTTP_COM_REACT/httpreact"]
+	path = 7_REQ_HTTP_COM_REACT/httpreact
+	url = https://github.com/thyagoerick/httpreact.git
