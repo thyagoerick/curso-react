@@ -12,6 +12,8 @@ const Navbar = () => {
           //className={({isActive}) => (isActive ? "esta-ativo" : "nao-ativo")}
         >HOME</NavLink>
         <NavLink to="/about">SOBRE</NavLink>
+        {/* Por padrão agora o componente NavLink vem com uma 
+          classe default para o link ativo chamada: active, mas é possível manipular usando isActive tbm*/}
     </nav>
   )
 }
