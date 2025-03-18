@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Camiseta branca",
+        "price": 50
+      },
+      {
+        "id": "2",
+        "name": "Calça vermelha",
+        "price": 90.99
+      },
+      {
+        "id": "3",
+        "name": "Tênis preto",
+        "price": 120
+      },
+      {
+        "id": "5",
+        "name": "Boné azul",
+        "price": 35
+      }
+    ]
+}
