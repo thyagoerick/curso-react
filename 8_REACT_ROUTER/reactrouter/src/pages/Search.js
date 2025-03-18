@@ -4,6 +4,23 @@ import { useFetch } from '../hooks/useFetch'
 
 const Search = () => {
   const [searchParams] = useSearchParams()
+  /**O useSearchParams do react-router-dom é um hook que permite acessar e manipular 
+   * os parâmetros de consulta (query parameters) da URL. Esses parâmetros são tudo 
+   * que vem após o ? na URL.
+   * 
+   * Isso significa que se a URL for http://localhost:3000/search?q=Calça , a 
+   * URL da API será http://localhost:3000/products?q=Calça .
+   * 
+   * Logo, o searchParams retorna o q=Calça e o restante se houver.
+   **/
+
+  //Testar pesquisando: Ca
+  console.log('searchParams', searchParams);
+  console.log("searchParams.get('q')", searchParams.get('q'));
+  console.log("searchParams.getAll('q')", searchParams.getAll('q'));
+  console.log("searchParams.has('Ca')", searchParams.has('q', 'Ca'));
+
+
 
   const url = 'http://localhost:3000/products?' + searchParams
 
