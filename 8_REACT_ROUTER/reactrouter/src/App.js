@@ -35,6 +35,16 @@ function App() {
           <Route path='/search' element={<Search />} />
           {/* 10 - redirect */}
           <Route path='/company' element={<Navigate to='/about'/>}/>
+          {/*
+            O componente `<Navigate to="" />` serve para redirecionar rotas, sendo útil para redirecionar rotas antigas para novas.
+            Por exemplo, no caso acima, a rota `/company` pode ter sido usada anteriormente e ainda aparece em mecanismos de busca.
+            Para não perdermos o SEO associado a `/company` e garantir que os usuários acessem a rota correta (`/about`),
+            utilizamos o `<Navigate to="" />` para redirecionar automaticamente.
+
+            Isso é diferente do `navigate()`, que é uma função usada para navegações programáticas, como em eventos de clique
+            ou submissão de formulários, e permite maior controle (por exemplo, passando parâmetros ou opções de navegação).
+          */}
+
           {/* 7 - no match route */}
           <Route path='*' element={<NotFound />}/>
         </Routes>
