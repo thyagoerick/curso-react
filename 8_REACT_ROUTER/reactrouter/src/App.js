@@ -29,11 +29,11 @@ function App() {
           <Route path='/about' element={<About/>} />
           {/* 4 - rota dinâmica */}
           <Route path='/products/:id' element={<Product/>} />
-          {/* 6 - nested route */}
+          {/* 6 - nested route (rotas aninhadas) */}
           <Route path='/products/:id/info' element={<Info />}/>
           {/* 9 - search */}
           <Route path='/search' element={<Search />} />
-          {/* 10 -redirect */}
+          {/* 10 - redirect */}
           <Route path='/company' element={<Navigate to='/about'/>}/>
           {/* 7 - no match route */}
           <Route path='*' element={<NotFound />}/>
