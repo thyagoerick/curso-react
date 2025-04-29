@@ -9,3 +9,8 @@
 [submodule "7_REQ_HTTP_COM_REACT/httpreact"]
 	path = 7_REQ_HTTP_COM_REACT/httpreact
 	url = https://github.com/thyagoerick/httpreact.git
+
+
+[submodule "10_MINIBLOG/miniblog"]
+	path = 10_MINIBLOG/miniblog
+	url = https://github.com/thyagoerick/miniblog.git
